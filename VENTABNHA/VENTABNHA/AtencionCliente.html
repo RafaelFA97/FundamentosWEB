@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Venta de Autos BNHA</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilos.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body>
+	<div id=Header>
+	    <img class="ImagenLOGO" src="IMAGENES/bnhalogo.png" width="200px" height="80px"  >
+		<h2 class="Titulos">Concesionaria BNHA</h2>
+
+
+   
+	</div>
+	<nav>
+            <ul class="fancyNav">
+                <li id="Home"><a href="Index.html" class="homeIcon">Modelos</a></li>
+                <li id="Modelos"><a href="#Modelos">Modelos</a></li>
+                <li id="Venta"><a href="#Venta">Venta</a></li>
+                <li id="PostVenta"><a href="PostVenta.html">Post Venta</a></li>
+                <li id="AtenciónAlCliente"><a href="AtencionCliente.html">Atención al Cliente</a></li>
+                <li id="Nosotros"><a href="Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+
+	<h1 id="h1" style="text-decoration: underline">ATENCIÓN AL CLIENTE</h1>
+<div id="Section">
+<div id="miformulario">
+<form name="miformulario" id="formulario" method="get" >
+        Nombres* </br>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" autofocus required></br>
+        Apellidos* </br>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required></br>
+        Empresa (opcional)</br>
+        <input type="text" name="empresa" id="empresa" placeholder="Empresa"></br>
+        DNI/RUC*</br>
+        <input type="text" name="dni" id="dni" placeholder="########" required maxlength="8" minlength="8" pattern="[0-9]\d{7}$"></br>
+        Provincia</br>
+        <input type="text" name="provincia" id="provincia" placeholder="lima"></br>
+        Ciudad</br>
+        <input type="text" name="ciudad" id="ciudad" placeholder="lima"></br>
+        Telefono*</br>
+        <input type="tel" name="telefono" id="telefono" placeholder="###-####" required></br>
+        Correo*</br>
+        <input type="email" name="miemail" id="miemail" placeholder="example@example.com" required></br>
+        Marca</br>
+        <input type="text" name="marca" id="marca" list="marcas" placeholder="marca del auto">
+        <datalist id="marcas">
+            <option value="HYUNDAI">
+            <option value="TOYOTA">
+            <option value="BMW">
+        </datalist></br>
+        Modelo</br>
+        <input type="text" name="modelo" id="modelo" placeholder="modelo del auto"></br>
+</div>
+
+<div id="miformulario1">
+        Mensaje</br>
+        <textarea id="comentario" rows="10" cols="80" placeholder="Escriba aquí su consulta"></textarea></br>
+        <input type="submit" value="Enviar" id="enviar">
+</div>
+
+</form>
+        <img src="IMAGENES/DEKU1.png" id="imagen1" width="350px" height="400px">
+</div>
+	<div id="footer">
+		Mapa de Sitio | Legal | Privacidad | Términos y Condiciones | Cotizar Repuestos |   Libro de Reclamaciones
+        <p align="center" >Copyright 2017- BNHA Perú</p>
+	</div>
+
+
+
+    
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
